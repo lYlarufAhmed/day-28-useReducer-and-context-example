@@ -2,6 +2,7 @@ import {useContext} from "react";
 import styled from "styled-components";
 import CounterContext from "../../CounterStore";
 const CounterWrapper = styled.div`
+margin-top: 1rem;
 display: flex;
 align-items: center;
 width: 25rem;
